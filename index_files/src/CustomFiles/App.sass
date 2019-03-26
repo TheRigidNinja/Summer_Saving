@@ -1,0 +1,122 @@
+=reset($hght,$wdth)
+    margin: 0
+    padding: 0
+    width: 100% + $wdth
+    min-height: 100% + $hght
+    position: relative
+    
+
+body,.GrandContainer
+    +reset(0,0)
+    position: absolute
+    height: 100%
+
+section
+    +reset(0,0)
+
+.cont
+    margin: 0
+    padding: 0
+    width: 100%
+    min-height: 100% 
+    position: relative
+
+
+ul
+    position: relative
+    margin: 0
+    padding: 0
+    left: -15px
+
+    li
+        text-decoration: none
+        list-style-type: none
+        // color: white
+   
+// -------------------- //  section1    // -------------------- //
+.section1
+    background-image: url(./Img/Section1BackImg.png)
+    background-repeat: no-repeat
+    background-size: cover
+
+    .cont
+        position: absolute
+        background: rgba(33, 20, 44, 0.6)
+
+
+// -------------------- //  section2    // -------------------- //
+$parent2H: 200
+
+.section2
+    height: 100% + $parent2H/2.8
+
+    .rowCont1
+        height: $parent2H+px
+
+        .child1,.child3
+            background-image: url(./Img/row1Img1.png)
+            background-repeat: no-repeat
+            background-size: cover
+
+        .child3
+            background-image: url(./Img/row1Img2.png)
+
+        .child2, .child4
+             display: flex
+             flex-flow: row wrap
+             align-items: center
+             justify-content: center
+
+    .rowCont2,.rowCont3
+        height: $parent2H + 250px
+
+    .rowCont2 
+        .child1,.child2
+            background-image: url(./Img/row2Img1.png)
+            background-repeat: no-repeat
+            background-size: cover
+
+        .child2
+            background-image: url(./Img/row2Img2.png)
+    
+    .rowCont3 
+        .child1,.child2
+            background-image: url(./Img/row2Img3.png)
+            background-repeat: no-repeat
+            background-size: cover
+
+        .child2
+            background-image: url(./Img/row2Img4.png)
+
+
+// -------------------- //  section3    // -------------------- //
+$parent3H: 10
+
+.section3
+    height: 100%
+
+    h1
+        text-align: center
+    
+    .Slider
+        width: 100%
+        margin-top: 50px
+        text-align: center
+        display: flex
+        align-items: center
+        justify-content: center
+
+        img 
+           width: 50%
+           height: 50% 
+        div
+            position: relative
+            display: inline-block
+            // margin-left: 10px
+            // height: 100px
+
+
+
+
+// -------------------- //  section4    // -------------------- //
+// -------------------- //  section1    // -------------------- //

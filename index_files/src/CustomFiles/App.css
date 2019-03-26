@@ -1,0 +1,140 @@
+body, .GrandContainer {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  position: absolute;
+  height: 100%;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+.cont {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  left: -15px;
+}
+
+ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.section1 {
+  background-image: url(./Img/Section1BackImg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section1 .cont {
+  position: absolute;
+  background: rgba(33, 20, 44, 0.6);
+}
+
+.section2 {
+  height: 171.42857%;
+}
+
+.section2 .rowCont1 {
+  height: 200px;
+}
+
+.section2 .rowCont1 .child1, .section2 .rowCont1 .child3 {
+  background-image: url(./Img/row1Img1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section2 .rowCont1 .child3 {
+  background-image: url(./Img/row1Img2.png);
+}
+
+.section2 .rowCont1 .child2, .section2 .rowCont1 .child4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section2 .rowCont2, .section2 .rowCont3 {
+  height: 450px;
+}
+
+.section2 .rowCont2 .child1, .section2 .rowCont2 .child2 {
+  background-image: url(./Img/row2Img1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section2 .rowCont2 .child2 {
+  background-image: url(./Img/row2Img2.png);
+}
+
+.section2 .rowCont3 .child1, .section2 .rowCont3 .child2 {
+  background-image: url(./Img/row2Img3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section2 .rowCont3 .child2 {
+  background-image: url(./Img/row2Img4.png);
+}
+
+.section3 {
+  height: 100%;
+}
+
+.section3 h1 {
+  text-align: center;
+}
+
+.section3 .Slider {
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section3 .Slider img {
+  width: 50%;
+  height: 50%;
+}
+
+.section3 .Slider div {
+  position: relative;
+  display: inline-block;
+}
+/*# sourceMappingURL=App.css.map */
